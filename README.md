@@ -1,16 +1,90 @@
-# React + Vite
+# Urdu Adab - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Urdu Adab is a modern book exchange community platform where users can explore books, view book details, and request to buy or exchange books.
 
-Currently, two official plugins are available:
+This repository contains the **frontend** of the Urdu Adab project, built with React, React Router, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 Home page
+- 📚 Browse available books
+- 🔍 Book information and details
+- 🛒 Buy/request book functionality
+- 🔐 User login
+- 👤 User pages
+- 🛠️ Admin dashboard
+- ➕ Add new books
+- 📖 Manage books
+- 🖼️ Book cover image support
+- 🌐 Backend API integration
+- 📦 Global book state using React Context API
+- 📱 Responsive UI
+- 🎨 Tailwind CSS styling
+- 🧭 Client-side navigation with React Router
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React.js**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Context API**
+- **Fetch API**
+
+---
+
+## 📁 Project Structure
+
+```text
+Urdu Adab Frontend/
+│
+├── public/
+│   └── icons/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   └── images/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── ...
+│   │
+│   ├── context/
+│   │   └── BookContext.jsx
+│   │
+│   ├── layouts/
+│   │   ├── UserLayout.jsx
+│   │   └── AdminLayout.jsx
+│   │
+│   ├── pages/
+│   │   │
+│   │   ├── user/
+│   │   │   ├── Home.jsx
+│   │   │   ├── About.jsx
+│   │   │   ├── Books.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── BuyBook.jsx
+│   │   │
+│   │   └── admin/
+│   │       ├── AdminDashboard.jsx
+│   │       ├── AddBook.jsx
+│   │       ├── ManageBooks.jsx
+│   │       └── Logout.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md

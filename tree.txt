@@ -1,0 +1,71 @@
+Urdu Adab/
+├─ public/
+│  ├─ favicon.svg
+│  └─ icons.svg
+├─ src/
+│  ├─ assets/
+│  │  ├─ images/
+│  │  │  ├─ Book1.png
+│  │  │  ├─ Book2.png
+│  │  │  ├─ Book3.png
+│  │  │  ├─ book4.png
+│  │  │  ├─ book5.png
+│  │  │  ├─ Book6.jpg
+│  │  │  ├─ book7.png
+│  │  │  ├─ Box2 Book1.jpg
+│  │  │  ├─ box2 book2.jpg
+│  │  │  ├─ box2 book3.jpg
+│  │  │  ├─ box2 book4.jpg
+│  │  │  ├─ box2 book5.jpg
+│  │  │  ├─ box3 Book1.png
+│  │  │  ├─ box3 Book2.png
+│  │  │  ├─ box3 Book3.jpg
+│  │  │  ├─ box3 Book4.png
+│  │  │  ├─ box3 Book5.jpg
+│  │  │  ├─ Chishti Sab.jpg
+│  │  │  ├─ Cover 2.png
+│  │  │  ├─ Cover 3.png
+│  │  │  ├─ Logo-for-website-icon.png
+│  │  │  ├─ Logo-for-website.png
+│  │  │  ├─ Logo.png
+│  │  │  └─ Pir-e-Kamil.jpg
+│  │  ├─ hero.png
+│  │  └─ react.svg
+│  ├─ components/
+│  │  ├─ About.jsx
+│  │  ├─ AdminSidebar.jsx
+│  │  ├─ BookCard.jsx
+│  │  ├─ BookGrid.jsx
+│  │  ├─ Footer.jsx
+│  │  ├─ Hero.jsx
+│  │  ├─ Navbar.jsx
+│  │  └─ SectionHeading.jsx
+│  ├─ context/
+│  │  ├─ AuthContext.jsx
+│  │  └─ BookContext.jsx
+│  ├─ layouts/
+│  │  ├─ AdminLayout.jsx
+│  │  └─ UserLayout.jsx
+│  ├─ pages/
+│  │  ├─ admin/
+│  │  │  ├─ Addbook.jsx
+│  │  │  ├─ AdminDashboard.jsx
+│  │  │  ├─ Logout.jsx
+│  │  │  └─ ManageBooks.jsx
+│  │  └─ user/
+│  │     ├─ About.jsx
+│  │     ├─ Books.jsx
+│  │     ├─ BuyBook.jsx
+│  │     ├─ Contact.jsx
+│  │     ├─ Home.jsx
+│  │     └─ Login.jsx
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ .gitignore
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ README.md
+└─ vite.config.js
